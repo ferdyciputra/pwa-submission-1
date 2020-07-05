@@ -56,11 +56,11 @@ document.addEventListener("DOMContentLoaded", function() {
         xhttp.send();
     }
 
-    const btn = document.getElementById("btn-goto");
-    btn.addEventListener("click", function() {
-        console.log("aaaaaaaaaaa")
+    const btn = document.getElementById("btn-goto-biography");
+    btn.addEventListener("click", function(event) {
+        // Muat konten halaman yang dipanggil
+        page = event.target.getAttribute("href").substr(1);
+        loadPage(page);
     })
-
-
 
 })
