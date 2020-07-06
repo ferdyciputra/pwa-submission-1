@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#00897B" />
 </head>
 
-<body>
+<body onload="activeNav();activeNavMobile()">
 
     <!-- Navigasi -->
     <nav class="green darken-1" role="navigation">
@@ -19,7 +19,7 @@
             <a href="" class="brand-logo" id="logo-container">Greenday</a>
             <a href="" class="sidenav-trigger" data-target="nav-mobile">☰</a>
 
-            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="topnav right hide-on-med-and-down" id="navbar"></ul>
             <ul class="sidenav" id="nav-mobile"></ul>
         </div>
     </nav>
@@ -44,7 +44,6 @@
 
     <script src="js/materialize.min.js"></script>
     <script src="js/nav.js"></script>
-
     <script>
         // REGISTER SERVICE WORKER
         if ("serviceWorker" in navigator) {
