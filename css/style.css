@@ -7,7 +7,7 @@ p {
     font-family: 'Quicksand', sans-serif;
 }
 
-.img-home {
+.img-home, .img-albums {
     padding-top: 10px;
     max-width: 100%;
     max-height: 100%;
@@ -45,6 +45,14 @@ ul.sidenav {
     font-family: 'Quicksand', sans-serif;
 }
 
-a {
+a, th, tr {
     font-family: 'Quicksand', sans-serif;
+}
+
+th {
+    color: white;
+}
+
+#albums {
+    margin-top: 20px;
 }
