@@ -1,11 +1,11 @@
 {
-    "name": "My First PWA",
-    "short_name": "My PWA",
-    "description": "Aplikasi PWA pertama saya",
+    "name": "Greenday Apps",
+    "short_name": "Greenday Apps",
+    "description": "Aplikasi Informasi tentang Greenday",
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "#00897B",
-    "theme_color": "#00897B",
+    "background_color": "#00c853",
+    "theme_color": "#00c853",
     "icons": [{
             "src": "icon.png",
             "sizes": "192x192",
