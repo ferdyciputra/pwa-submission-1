@@ -20,7 +20,7 @@ function showProfile() {
         <div class="col s12 m4">
             <div class="card">
                 <div class="card-image">
-                    <img class="img-card" src="/img/${profile['image'][index]}">
+                    <img class="img-card" src="/img/${profile['image'][index]}" alt="${profile['nama'][index]}">
                     <span class="card-title">${profile['nama'][index]}</span>
                 </div>
                 <div class="card-content">
