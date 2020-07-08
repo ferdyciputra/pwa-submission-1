@@ -18,7 +18,9 @@ var urlsToCache = [
     "/img/icon-albums.png",
     "/img/armstrong.jpg",
     "/img/mike.jpeg",
-    "/img/tree.jpg"
+    "/img/tree.jpg",
+    "/img/aboutme.png",
+    "/img/ferdy.jpg"
 ];
 
 self.addEventListener("install", function(event) {
