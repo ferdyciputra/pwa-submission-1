@@ -1,6 +1,7 @@
 const CACHE_NAME = "firstpwa-v2";
 var urlsToCache = [
     "/",
+    "/manifest.json",
     "/nav.html",
     "/index.html",
     "/pages/home.html",
@@ -13,14 +14,21 @@ var urlsToCache = [
     "/js/nav.js",
     "/js/albums.js",
     "/js/profile.js",
-    "/icon.png",
     "/img/icon-home.png",
     "/img/icon-albums.png",
     "/img/armstrong.jpg",
     "/img/mike.jpeg",
     "/img/tree.jpg",
     "/img/aboutme.png",
-    "/img/ferdy.jpg"
+    "/img/ferdy.jpg",
+    "/img/icons/icon-72x72.png",
+    "/img/icons/icon-96x96.png",
+    "/img/icons/icon-128x128.png",
+    "/img/icons/icon-144x144.png",
+    "/img/icons/icon-152x152.png",
+    "/img/icons/icon-192x192.png",
+    "/img/icons/icon-384x384.png",
+    "/img/icons/icon-512x512.png",
 ];
 
 self.addEventListener("install", function(event) {
